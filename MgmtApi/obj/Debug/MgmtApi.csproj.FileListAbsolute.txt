@@ -1,0 +1,9 @@
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\bin\Debug\MgmtApi.dll
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\bin\Debug\MgmtApi.pdb
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\obj\Debug\MgmtApi.csprojAssemblyReference.cache
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\obj\Debug\MgmtApi.csproj.CoreCompileInputs.cache
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\obj\Debug\MgmtApi.csproj.CopyComplete
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\obj\Debug\MgmtApi.dll
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\MgmtApi\obj\Debug\MgmtApi.pdb

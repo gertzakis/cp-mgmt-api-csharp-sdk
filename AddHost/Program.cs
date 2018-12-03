@@ -1,6 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json.Linq;
 using MgmtApi;
+using Newtonsoft.Json;
 
 namespace AddHost
 {
@@ -37,27 +38,41 @@ namespace AddHost
             // try to login
             ApiLoginResponse res = Login(client, server,username, password);
 
-            Console.WriteLine("Enter a name for the new host object: ");
-            string hostName = Console.ReadLine();
-            Console.WriteLine("Enter host IP: ");
-            string hostIp = Console.ReadLine();
+            //Console.WriteLine("Enter a name for the new host object: ");
+            //string hostName = Console.ReadLine();
+            //Console.WriteLine("Enter host IP: ");
+            //string hostIp = Console.ReadLine();            
+
+            Console.WriteLine("Enter file path: ");
+            var importer = new DataImporter();
+
+            foreach (var item in importer.ReadFile(Console.ReadLine()))
+            {
+                var t = JsonConvert.SerializeObject(item);
+                //ApiResponse addhostRes = client.ApiCall(res, "add-host", );
+
+                //if (addhostRes == null)
+                //{
+                //    ApiUtils.WriteLineColored("Add-Host failed.", ConsoleColor.Red);
+                //    Logout(res, client);
+                //    ApiUtils.EndProgram();
+                //}
+
+                //if (!addhostRes.Success)
+                //{
+                //    ApiUtils.WriteLineColored("Add-Host failed. Error: " + addhostRes.ErrorMessage, ConsoleColor.Red);
+                //    Logout(res, client);
+                //    ApiUtils.EndProgram();
+                //}
+
+                ApiUtils.WriteLineColored(t, ConsoleColor.Green);
+            }
+
+            Console.ReadLine();
+
 
             // make the API add-host call.
-            ApiResponse addhostRes = client.ApiCall(res, "add-host", new JObject { { "name", hostName }, { "ip-address", hostIp } });
-
-            if (addhostRes == null)
-            {
-                ApiUtils.WriteLineColored("Add-Host failed.", ConsoleColor.Red);
-                Logout(res, client);
-                ApiUtils.EndProgram();
-            }
-
-            if (!addhostRes.Success)
-            {
-                ApiUtils.WriteLineColored("Add-Host failed. Error: " + addhostRes.ErrorMessage, ConsoleColor.Red);
-                Logout(res, client);
-                ApiUtils.EndProgram();
-            }
+            //ApiResponse addhostRes = client.ApiCall(res, "add-host", new JObject { { "name", hostName }, { "ip-address", hostIp } });
 
             ApiUtils.WriteLineColored("Add-Host succeeded.", ConsoleColor.Green);
 

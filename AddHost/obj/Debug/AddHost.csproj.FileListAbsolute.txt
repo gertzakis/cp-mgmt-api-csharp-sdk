@@ -1,0 +1,12 @@
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\bin\Debug\AddHost.exe.config
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\bin\Debug\AddHost.exe
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\bin\Debug\AddHost.pdb
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\bin\Debug\MgmtApi.dll
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\bin\Debug\MgmtApi.pdb
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\obj\Debug\AddHost.csprojAssemblyReference.cache
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\obj\Debug\AddHost.csproj.CoreCompileInputs.cache
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\obj\Debug\AddHost.csproj.CopyComplete
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\obj\Debug\AddHost.exe
+C:\Users\gtzakis.ODYSSEY\Documents\Code & Scripts\cp-mgmt-api-csharp-sdk\AddHost\obj\Debug\AddHost.pdb
